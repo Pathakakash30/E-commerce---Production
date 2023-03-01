@@ -39,17 +39,13 @@ app.use("/uploads", express.static(path.join(dirname, "/uploads")));
 
 
 //serving the frontend
-if (process.env.NODE_ENV === "production") {
+
   app.use(express.static(path.join(dirname, "/frontend/build")));
 
   app.get("*", (req, res) =>
     res.sendFile(path.resolve(dirname, "frontend", "build", "index.html"))
   );
-} else {
-  app.get("/", (req, res) => {
-    res.send("API is runinng ...");
-  });
-}
+
 
 const PORT = process.env.PORT || 5000;
 

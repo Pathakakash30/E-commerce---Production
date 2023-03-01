@@ -1,2 +1,4 @@
 # E-commerce---Production
-TechZoo store in which you can buy tech gadgets
+
+
+this is production repo to deploy on cyclic.sh

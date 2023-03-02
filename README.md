@@ -1,7 +1,7 @@
 # E-commerce---Production
 
 
-this is production repo to deploy on cyclic.sh which only have build in frontend
+-> This is production repo to deploy on cyclic.sh which only have build in frontend
 
 
 TechZoo store in which you can buy tech gadgets which is build using MERN.

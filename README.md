@@ -28,6 +28,8 @@ deploy application to cyclic.sh,
 
 Redux state, 
 
+bcrypting Passwords
+
 beautiful functional programming using React Hooks, 
 
 Much more like Helmet tab!,
